@@ -2,6 +2,11 @@
 Safe Version Of FirstWheels With API Keys Removed To Allow Public Access  
 The simplest way to run is by opening this url on your mobile: https://firstwheels-fyp.apps.a.comp-teach.qmul.ac.uk/  
 
+# Credits
+The dataset used to train the anpr model was derived from roboflow  
+Datasets, R. (2024) ‘UK Number Plate Recognision Dataset’,  
+Roboflow Universe [Preprint]. Roboflow. Available at: https://universe.roboflow.com/recognision-datasets/uk-number-plate-recognision.
+
 # Manual Install
 Please note the below steps are for windows, steps may vary with other operating systems  
 You can also watch the demo.mp4 within supporting submissions
@@ -44,7 +49,7 @@ cd /Downloads
 3. Now you need to make a conda environment, to do this run conda create -n firstwheels python=3.11
 4. Once Started run conda activate firstwheels
 5. Next you need to cd into the firstwheels folder which should be cd FirstWheels-Safe
-6. you should now be in the main app directory, you can confirm this by running ls, you should see fw_backend and fw_frontend, if not please recheck the structure of the app in Prerequistites
+6. you should now be in the main app directory, you can confirm this by running dir, you should see fw_backend and fw_frontend, if not please recheck the structure of the app in Prerequistites
 7. next cd into fw_backend with cd fw/backend
 8. now run pip install -r requirements.txt
 9. now run python manage.py migrate
