@@ -4,7 +4,7 @@ The simplest way to run is by opening this url on your mobile: https://firstwhee
 
 # Manual Install
 Please note the below steps are for windows, steps may vary with other operating systems  
-You can also watch the demoinstall.mp4 within supporting submissions
+You can also watch the demo.mp4 within supporting submissions
 
 ## Prerequisites  
 Due to DVLA's policy and GitHub, the API keys and ID's are removed for security purposes  
@@ -49,6 +49,6 @@ cd /Downloads
 8. now run pip install -r requirements.txt
 9. now run python manage.py migrate
 10. finally run python manage.py runsslserver 0.0.0.0:8000 --certificate cert.pem --key key.pem
-11. Once you see Starting development server at https://0.0.0.0:8000/ the server is running and you can use your mobile phone and onto a browser and in the url field go to your ip :8000 (e.g. 192.168.0.10:8000)  
+11. Once you see Starting development server at https://0.0.0.0:8000/ the server is running and you can use your mobile phone and onto a browser and in the url field go to your htpps://@ip :8000 (e.g. https://192.168.0.10:8000)  
 ![image](https://github.com/user-attachments/assets/dcae76db-7ab6-4fd4-95ac-869eba6c7a63)
 
