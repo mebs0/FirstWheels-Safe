@@ -46,8 +46,9 @@ cd /Downloads
 5. Next you need to cd into the firstwheels folder which should be cd FirstWheels-Safe
 6. you should now be in the main app directory, you can confirm this by running ls, you should see fw_backend and fw_frontend, if not please recheck the structure of the app in Prerequistites
 7. next cd into fw_backend with cd fw/backend
-8. now run python manage.py migrate
-9. finally run python manage.py runsslserver 0.0.0.0:8000 --certificate cert.pem --key key.pem
-10. Once you see Starting development server at https://0.0.0.0:8000/ the server is running and you can use your mobile phone and onto a browser and in the url field go to your ip :8000 (e.g. 192.168.0.10:8000)  
+8. now run pip install -r requirements.txt
+9. now run python manage.py migrate
+10. finally run python manage.py runsslserver 0.0.0.0:8000 --certificate cert.pem --key key.pem
+11. Once you see Starting development server at https://0.0.0.0:8000/ the server is running and you can use your mobile phone and onto a browser and in the url field go to your ip :8000 (e.g. 192.168.0.10:8000)  
 ![image](https://github.com/user-attachments/assets/dcae76db-7ab6-4fd4-95ac-869eba6c7a63)
 
